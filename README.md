@@ -110,3 +110,10 @@ outputs = {
     "location_by_adm_level_4": [[], [], []],
 }
 ```
+
+
+## License
+
+This repository is licensed under the AGPL v3. You are free to use, modify, and distribute the code as long as you comply with the terms of this license. Any derivative works must also be open-sourced under the same license.
+
+For questions or support, please reach out to `selimfek@gmail.com`.
