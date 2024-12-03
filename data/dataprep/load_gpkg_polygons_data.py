@@ -12,8 +12,8 @@ from copy import copy
 
 
 def _create_filtered_features(file_path: os.PathLike, highest_polygon_id: int):
-    print(file_path)
-
+    if not os.path.exists(file_path):
+        return {}
     feature_name_to_id = defaultdict(lambda: defaultdict(dict))
 
     with fiona.open(
